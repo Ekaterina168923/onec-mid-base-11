@@ -210,13 +210,13 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="b5489d4b-4d0d-4bd2-b162-6281558ef14d">
-    <name>КонтактноеЛицо</name>
+    <name>ТП_КонтактноеЛицо</name>
     <synonym>
       <key>ru</key>
       <value>Контактное лицо</value>
     </synonym>
     <type>
-      <types>CatalogRef.КонтактныеЛица</types>
+      <types>CatalogRef.ТП_КонтактныеЛица</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

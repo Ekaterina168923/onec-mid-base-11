@@ -195,13 +195,13 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="2894a588-c9c4-4aa1-a6ac-7f6306439fcb">
-    <name>КонтактноеЛицо</name>
+    <name>ТП_КонтактноеЛицо</name>
     <synonym>
       <key>ru</key>
       <value>Контактное лицо</value>
     </synonym>
     <type>
-      <types>CatalogRef.КонтактныеЛица</types>
+      <types>CatalogRef.ТП_КонтактныеЛица</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -214,7 +214,7 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="08cd74f3-f2e5-4991-ad5f-71cd25a79589">
-    <name>СогласованнаяСкидка</name>
+    <name>ТП_СогласованнаяСкидка</name>
     <synonym>
       <key>ru</key>
       <value>Согласованная скидка</value>
@@ -234,8 +234,12 @@
       <key>ru</key>
       <value>ЧРД=.</value>
     </editFormat>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:StringValue">
+      <value>0</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>100</value>
+    </maxValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
